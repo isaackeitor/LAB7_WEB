@@ -1,13 +1,14 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 14em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -16,6 +17,10 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.main_logo{
+  height: 13em;
 }
 
 @keyframes logo-spin {
@@ -40,3 +45,19 @@
 .read-the-docs {
   color: #888;
 }
+
+.fondoup{
+  background-color: #353748;
+  margin: 0%;
+}
+
+.fondodown{
+  background-color: #58b792;
+  margin: 0%;
+}
+
+.curva{
+  color: #58b792;
+  display: block;
+}
+
